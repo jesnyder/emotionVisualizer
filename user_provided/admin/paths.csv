@@ -1,1 +1,8 @@
 name,path
+admin_ref,user_provided admin ref.csv
+source_data,user_provided downloaded
+
+
+$, html
+index,program_generated html index.html
+docs_index,docs index.html

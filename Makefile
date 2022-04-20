@@ -9,9 +9,9 @@ clone:
 		mv scraped_guts/ core_code/
 
 .PHONY: pythonanalysis
-pythonanalysis: clone
+pythonanalysis:
 	pip install --upgrade -r reqs.txt
-	python3  core_code/python/a0000_main.py
+	python3  core_code/python/a_main.py
 
 
 .PHONY: web
