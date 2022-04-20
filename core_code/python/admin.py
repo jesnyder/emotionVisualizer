@@ -48,15 +48,15 @@ def retrieve_path(name):
 
     for i in range(len(path)):
 
-        print('i = ' + str(i))
+        #print('i = ' + str(i))
 
         if '.' in path[i]: continue
 
         if i == 0: path_short = os.path.join(path[0])
         else: path_short = os.path.join(path_short, path[i])
 
-        print('path_short = ')
-        print(path_short)
+        #print('path_short = ')
+        #print(path_short)
 
         if not os.path.exists(path_short):
             os.makedirs(path_short)

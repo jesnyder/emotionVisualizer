@@ -41,5 +41,14 @@ def write_html():
 
     f = open(index_html, 'w+')
 
-    f.write('hello')
+    f.write('<!DOCTYPE html>')
+    f.write('<html>')
+    f.write('<body>')
+
+    f.write('<h1>My First Heading</h1>')
+    f.write('<p>My first paragraph.</p>')
+
+    f.write('</body>')
+    f.write('</html>')
+
     f.close()
